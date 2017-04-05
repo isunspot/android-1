@@ -22,9 +22,18 @@
     <string name="menu_item_sort_by_size_smallest_first">Kisebbek elöl</string>
 
     <string name="drawer_item_all_files">Összes fájl</string>
+    <string name="drawer_item_files">Fájlok</string>
+    <string name="drawer_item_home">Saját mappa</string>
+    <string name="drawer_item_favorites">Kedvencek</string>
+    <string name="drawer_item_photos">Fényképek</string>
     <string name="drawer_item_on_device">Az eszközön</string>
+    <string name="drawer_item_recently_added">Utoljára hozzáadva</string>
+    <string name="drawer_item_recently_modified">Utoljára módosítva</string>
+    <string name="drawer_item_shared">Megosztott</string>
+    <string name="drawer_item_videos">Videók</string>
     <string name="drawer_item_settings">Beállítások</string>
     <string name="drawer_item_uploads_list">Feltöltések</string>
+    <string name="drawer_item_activities">Tevékenységek</string>
     <string name="drawer_quota">%1$s felhasználva ennyiből: %2$s</string>
 	<string name="drawer_close">Bezárás</string>
     <string name="drawer_open">Megnyitás</string>
@@ -90,7 +99,13 @@
     <string name="file_list_no_app_for_file_type">Nem található alkalmazás a fálj típushoz.</string>
     <string name="local_file_list_empty">Nincs fájl ebben a mappában.</string>
     <string name="file_list_empty_headline_search">Nincsenek eredmények ebben a mappában</string>
+    <string name="file_list_empty_favorite_headline">Nincsenek kedvencek</string>
+    <string name="file_list_empty_shared_headline">Nincs semmi megosztva</string>
+    <string name="file_list_empty_shared">Az Ön által megosztott fájlok és mappák itt jelennek meg</string>
+    <string name="file_list_empty_headline_server_search_videos">Nincsenek videók</string>
+    <string name="file_list_empty_headline_server_search_photos">Nincsenek képek</string>
     <string name="file_list_empty_search">Megpróbálsz másik mappában keresni?</string>
+    <string name="file_list_empty_recently_modified">Nem talátam az utóbbi 7 napban módosított fájlt</string>
     <string name="upload_list_empty_headline">Nincsenek feltöltések</string>
     <string name="upload_list_empty_text">Tölts fel valami tartalmat vagy kapcsold be az azonnali feltöltést!</string>
     <string name="file_list_folder">mappa</string>
@@ -248,6 +263,8 @@
     
     <string name="favorite">Állítsa be kapcsolat nélkül is elérhetőnek</string>
     <string name="unfavorite">Törölje a kapcsolat nélküli elérhetőséget</string>
+    <string name="favorite_real">Beállítás kedvenként</string>
+    <string name="unset_favorite_real">Eltávolítás a kedvence közül</string>
     <string name="common_rename">Átnevezés</string>
     <string name="common_remove">Eltávolítás</string>
     <string name="confirmation_remove_file_alert">Tényleg el akarod távolítani ezt: %1$s?</string>
@@ -574,4 +591,6 @@
 
     <string name="user_information_description">Felhasználói információ</string>
 
+    <!-- Activities -->
+    <string name="activities_no_results_headline">Nincs még tevékenység</string>
     </resources>
